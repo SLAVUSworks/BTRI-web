@@ -1,0 +1,25 @@
+.title-index h1 {
+    -webkit-user-select: none; /* Safari */
+    -ms-user-select: none; /* IE 10 and IE 11 */
+    user-select: none; /* Standard syntax */
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 300;
+    font-size: 8vw;
+    color: #d7ca00;
+}
+
+.title-index h1 b {
+    -webkit-user-select: none; /* Safari */
+    -ms-user-select: none; /* IE 10 and IE 11 */
+    user-select: none; /* Standard syntax */
+    font-weight: 900;
+    color: #d7ca00;
+
+}
+
+.title-index h1 em {
+    -webkit-user-select: none; /* Safari */
+    -ms-user-select: none; /* IE 10 and IE 11 */
+    user-select: none; /* Standard syntax */
+    color: #d7ca00;
+}
