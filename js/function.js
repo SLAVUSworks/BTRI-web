@@ -1,13 +1,3 @@
-    //Web-Preload    
-    $(document).ready(function() {
-
-        setTimeout(function(){
-          $('body').addClass('loaded');
-          $('h1').css('color','#222222');
-        }, 5000);
-
-      });
-
 $(function(){
 	$('.nav__icon').on('click', function() {
 		$(this).toggleClass('active');
