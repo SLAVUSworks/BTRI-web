@@ -8,6 +8,7 @@ body {
     max-width: 100%;
     overflow-x: hidden;
     overflow-anchor: none;
+    font-size: 100%
 }
 
 /* width */
@@ -28,17 +29,6 @@ body {
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
     background: #555;
-}
-
-/* Pages Background */
-.index-bg {
-    width: 100vw;
-    height: 100vh;
-    background-image: url(../Assets/bg/nijikas.png);
-    background-color: #000;
-    backdrop-filter: brightness(60%);
-    background-size: cover;
-    background-position: center, center;
 }
 
 /* Pre-Loader */
@@ -217,6 +207,9 @@ nav {
 }
 
 .logo {
+    -webkit-user-select: none; /* Safari */
+    -ms-user-select: none; /* IE 10 and IE 11 */
+    user-select: none; /* Standard syntax */
     margin-left: 10px;
     margin-right: auto;
 }
@@ -299,14 +292,18 @@ nav {
     -webkit-user-select: none; /* Safari */
     -ms-user-select: none; /* IE 10 and IE 11 */
     user-select: none; /* Standard syntax */
-    position: fixed;
-    bottom: -210px;
+    position: relative;
+    clear: both;
     z-index: 1;
     background: #d7ca00;
     height: auto;
     width: 100vw;
     padding-top: 40px;
     color: #fff;
+}
+
+footer {
+    bottom: -150px;
 }
 
 

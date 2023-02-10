@@ -1,0 +1,19 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    background-image: url(../Assets/bg/nijikas.png);
+    background-color: #000;
+    backdrop-filter: brightness(60%);
+    background-size: cover;
+    background-position: center, center;
+}
+
+.title h1 {
+    -webkit-user-select: none; /* Safari */
+    -ms-user-select: none; /* IE 10 and IE 11 */
+    user-select: none; /* Standard syntax */
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 300;
+    font-size: 8vw;
+    color: #d7ca00;
+}
