@@ -33,3 +33,43 @@ body {
     user-select: none; /* Standard syntax */
     color: #d7ca00;
 }
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 20em 20em;
+    gap: 10px;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.grid-content {
+    background-color: #0000008a;
+}
+
+#fb {
+    background-image: url(https://media.discordapp.net/attachments/497671304229421069/1073883073919324192/HD-wallpaper-facebook-app-logo-blue-social-media-android.png);
+    background-size: cover;
+    background-position: center, center;
+}
+
+#fb:hover {
+    background-image: url(https://media.discordapp.net/attachments/497671304229421069/1073969231898607717/image.png);
+    background-size: cover;
+    background-position: center, center;
+    filter: opacity(70%);
+}
+
+#dc {
+    background-image: url(https://media.discordapp.net/attachments/497671304229421069/1073879354469265448/wp6647753.png);
+    background-size: 50%;
+    background-position: center, center;
+}
+
+#dc:hover {
+    background-image: url(https://media.discordapp.net/attachments/497671304229421069/1073969928228581467/image.png);
+    background-size: cover;
+    background-position: center, center;
+    filter: opacity(70%);
+}
