@@ -1,0 +1,82 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    background-image: url(../Assets/bg/ryo1.jpg);
+    background-color: #000;
+    backdrop-filter: brightness(60%);
+    background-size: cover;
+    background-position: center, center;
+}
+
+.title h1 {
+    -webkit-user-select: none; /* Safari */
+    -ms-user-select: none; /* IE 10 and IE 11 */
+    user-select: none; /* Standard syntax */
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 300;
+    font-size: 8vw;
+    color: #d7ca00;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 5px;
+    padding: 10px;
+}
+
+.grid-content {
+    padding: 10px 0;
+    background-color: #ffffff77;
+    font-family: 'Noto Sans', sans-serif;
+    opacity: calc(100%);
+}
+
+.grid-content h1 {
+    text-align: center;
+}
+
+.grid-content h2 {
+    margin-left: 10px;
+}
+
+.grid-content ul {
+    margin-left: 30px;
+}
+
+#dc {
+    background-image: linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.5)), url("https://media.discordapp.net/attachments/497671304229421069/1073879354469265448/wp6647753.png");
+    background-size: cover;
+    background-position: center, center;
+}
+
+#fb {
+    background-image: linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.5)), url("https://media.discordapp.net/attachments/497671304229421069/1073883073919324192/HD-wallpaper-facebook-app-logo-blue-social-media-android.png");
+    background-size: cover;
+    background-position: center, center;
+}
+
+#wa {
+    background-image: linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.5)), url("https://media.discordapp.net/attachments/497671304229421069/1073883541261266994/HD-wallpaper-whatsapp-l-background-doodle-pattern-patterns.png?width=231&height=480");
+    background-size: cover;
+    background-position: center, center;
+}
+
+#ig {
+    background-image: linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.5)), url("https://media.discordapp.net/attachments/497671304229421069/1073883877346644008/274089.png?width=853&height=480");
+    background-size: cover;
+    background-position: center, center;
+}
+
+@media only screen and (max-width: 550px) {
+    .grid-container {
+        display: contents;
+    }
+
+    .grid-content {
+        margin-left: 30px;
+        margin-top: 30px;
+        margin-right: 30px;
+        margin-bottom: 30px;
+    }
+}

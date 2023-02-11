@@ -1,7 +1,7 @@
 body {
     width: 100vw;
     height: 100vh;
-    background-image: url(../Assets/bg/nijikas.png);
+    background-image: url(../Assets/bg/bocchis.png);
     background-color: #000;
     backdrop-filter: brightness(60%);
     background-size: cover;
@@ -16,4 +16,31 @@ body {
     font-weight: 300;
     font-size: 8vw;
     color: #d7ca00;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 5px; 
+    padding: 10px;
+
+}
+
+.grid-content {
+    padding: 10px 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media only screen and (max-width: 1140px) {
+    .grid-container {
+        display: contents;
+    }
+    .grid-content {
+        display: flex;
+        justify-content: center;
+        padding: 10px 0;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
 }
