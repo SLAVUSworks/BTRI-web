@@ -21,8 +21,8 @@ body {
 .grid-container {
     display: grid;
     grid-template-columns: auto auto;
-    gap: 5px;
-    padding: 10px;
+    gap: 20px;
+    padding: 20px;
 }
 
 .grid-content {

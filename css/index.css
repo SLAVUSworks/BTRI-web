@@ -46,6 +46,16 @@ body {
     text-align: center;
 }
 
+.grid-on-grid {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    margin-top: 25px;
+}
+
+.grid-on-content img {
+    height: 27%;
+}
+
 #btri-logo {
     display: block;
     margin-top: 80px;
@@ -68,6 +78,13 @@ body {
     font-size: calc(15px + 0.390625vw);
     text-align: justify;
     font-family: 'Noto Sans', sans-serif;
+    color: #d7ca00;
+    font-weight: 500;
+}
+
+.question {
+    color: #ffffff;
+    text-align: end;
 }
 
 @media only screen and (max-width: 650px) {
@@ -78,6 +95,10 @@ body {
     }
 
     .grid-container {
+        display: contents;
+    }
+
+    .grid-on-grid {
         display: contents;
     }
 
