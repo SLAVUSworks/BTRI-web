@@ -9,9 +9,12 @@ body {
 }
 
 .title h1 {
-    -webkit-user-select: none; /* Safari */
-    -ms-user-select: none; /* IE 10 and IE 11 */
-    user-select: none; /* Standard syntax */
+    -webkit-user-select: none;
+    /* Safari */
+    -ms-user-select: none;
+    /* IE 10 and IE 11 */
+    user-select: none;
+    /* Standard syntax */
     font-family: 'Noto Sans', sans-serif;
     font-weight: 300;
     font-size: 8vw;
@@ -19,18 +22,24 @@ body {
 }
 
 .title h1 b {
-    -webkit-user-select: none; /* Safari */
-    -ms-user-select: none; /* IE 10 and IE 11 */
-    user-select: none; /* Standard syntax */
+    -webkit-user-select: none;
+    /* Safari */
+    -ms-user-select: none;
+    /* IE 10 and IE 11 */
+    user-select: none;
+    /* Standard syntax */
     font-weight: 900;
     color: #d7ca00;
 
 }
 
 .title h1 em {
-    -webkit-user-select: none; /* Safari */
-    -ms-user-select: none; /* IE 10 and IE 11 */
-    user-select: none; /* Standard syntax */
+    -webkit-user-select: none;
+    /* Safari */
+    -ms-user-select: none;
+    /* IE 10 and IE 11 */
+    user-select: none;
+    /* Standard syntax */
     color: #d7ca00;
 }
 
@@ -46,12 +55,33 @@ body {
 
 .grid-content {
     background-color: #0000008a;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.grid-content iframe {
+    display: block;
 }
 
 #fb {
     background-image: url(https://media.discordapp.net/attachments/497671304229421069/1073883073919324192/HD-wallpaper-facebook-app-logo-blue-social-media-android.png);
     background-size: cover;
     background-position: center, center;
+}
+
+#fb a {
+    display: table;
+    font-family: sans-serif;
+    text-decoration: none;
+    margin: 1em auto;
+    color: #fff;
+    font-size: 0.9em;
+    padding: 1em 2em 1em 3.5em;
+    border-radius: 2em;
+    font-weight: bold;
+    background: #505050 url('https://cdn3.iconfinder.com/data/icons/glypho-social-and-other-logos/64/logo-facebook-512.png') no-repeat 1.5em center;
+    background-size: 1.6em;
 }
 
 #fb:hover {
@@ -72,4 +102,75 @@ body {
     background-size: cover;
     background-position: center, center;
     filter: opacity(70%);
+}
+
+#wa {
+    background-image: url(https://media.discordapp.net/attachments/497671304229421069/1074117040224342076/allthings.png);
+    background-size: cover;
+    background-position: center, center;
+}
+
+#wa a {
+    display: table;
+    font-family: sans-serif;
+    text-decoration: none;
+    margin: 1em auto;
+    color: #fff;
+    font-size: 0.9em;
+    padding: 1em 2em 1em 3.5em;
+    border-radius: 2em;
+    font-weight: bold;
+    background: #505050 url('https://tochat.be/click-to-chat-directory/css/whatsapp.svg') no-repeat 1.5em center;
+    background-size: 1.6em;
+}
+
+#wa:hover {
+    background-image: url(https://media.discordapp.net/attachments/497671304229421069/1074117734406819840/image.png);
+    background-size: cover;
+    background-position: center, center;
+    filter: opacity(70%);
+}
+
+#ig {
+    background-image: url(https://media.discordapp.net/attachments/497671304229421069/1073883877346644008/274089.png);
+    background-size: cover;
+    background-position: center, center;
+}
+
+#ig a {
+    display: table;
+    font-family: sans-serif;
+    text-decoration: none;
+    margin: 1em auto;
+    color: #fff;
+    font-size: 0.9em;
+    padding: 1em 2em 1em 3.5em;
+    border-radius: 2em;
+    font-weight: bold;
+    background: #505050 url('https://cdn-icons-png.flaticon.com/512/87/87390.png') no-repeat 1.5em center;
+    background-size: 1.6em;
+}
+
+#ig:hover {
+    background-image: url(https://cdn.discordapp.com/attachments/497671304229421069/1074118905175494697/image.png);
+    background-size: cover;
+    background-position: center, center;
+    filter: opacity(70%);
+}
+
+@media only screen and (max-width: 550px) {
+    .grid-container {
+        display: contents;
+    }
+
+    .grid-content {
+        margin-top: 10px;
+        margin-left: 10px;
+        margin-right: 10px;
+        height: 10em;
+    }
+
+    #dc {
+        height: 25em;
+    }
 }
