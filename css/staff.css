@@ -3,7 +3,7 @@ body {
     height: 100vh;
     background-image: url(../Assets/bg/ryo1.jpg);
     background-color: #000;
-    backdrop-filter: brightness(60%);
+    backdrop-filter: brightness(30%);
     background-size: cover;
     background-position: center, center;
 }
